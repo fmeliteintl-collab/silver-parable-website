@@ -27,3 +27,4 @@ Send one message from each Contact tab and confirm it arrives in Formspree and y
 ## Notes
 - Trademark clearance is still open. Keep spending on the brand light until CIPO/USPTO checks are done.
 - Replace `assets/logo.png` with an SVG version when you have one.
+- Deployment platform: Cloudflare Pages. Automatic deployment from the main branch.
