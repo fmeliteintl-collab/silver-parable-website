@@ -173,3 +173,20 @@ button:disabled{opacity:.5;cursor:not-allowed}
     margin-inline: auto;
   }
 }
+/* RISE artwork — remove rectangular image frame */
+.feature .cover {
+  border: none;
+  box-shadow: none;
+}
+/* RISE circular artwork — remove rectangular framing */
+.feature .rise-artwork,
+.feature .rise-artwork .cover,
+.feature > .cover {
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.feature .rise-artwork {
+  background: transparent !important;
+}
